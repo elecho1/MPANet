@@ -1,0 +1,11 @@
+# private files
+00_memo.txt
+
+# model files
+model/*
+
+# deprecated files
+train_Ind_EMD.py
+
+# temp files
+README.pdf
