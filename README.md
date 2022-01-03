@@ -23,7 +23,7 @@ $ pip install -r requirements.txt
 * Each image of the dataset should have the file name `<id>.jpg`.
 
 ### Trained model
-* Trained model for this code is [here](https://drive.google.com/file/d/1j9IZ9gQadxg-_KE0uZLB94OubqEqYEBC/view?usp=sharing)
+* Trained model for this code is [here](https://drive.google.com/file/d/1NZ53mlekEgsbInWqdMAhyb6NuX4HaGPl/view?usp=sharing)
 
 
 
@@ -54,7 +54,7 @@ General usage is as follows:
 python3 main_Ind_EMD.py --path-to-train-csv <train_image_ids>.csv --path-to-test-csv <val_iamge_ids>.csv --path-to-images <image_dir> --num-workers 16 -b 64 --val-batch-size 10 --epochs 200 --conv-lr 1e-2 --dense-lr 1e-2 --resultdir <result_dir> --momentum 0.9 --save-freq 5 --gpu --crop-num 8 --beta 0.4 --pr_weight 1.2 --dataset-seed 10 --lr-decay-rate 0.9 --lr-decay-freq 10 --nima-pretrained true --path-to-nima <pretrained_NIMA_path>
 ```
 
-In training, we recommend to use pretrained NIMA (`<pretrained_NIMA_path>` above) for finetuning. The sample pretrained NIMA model is [here](https://drive.google.com/file/d/1dUEvuTSPbOgT13iTWe27ZerY2EfT4Ok5/view?usp=sharing).
+In training, we recommend to use pretrained NIMA (`<pretrained_NIMA_path>` above) for finetuning. The sample pretrained NIMA model is [here](https://drive.google.com/file/d/10xXIiQYcKKJL5RuMZnKCFsoRqY71CY4w/view?usp=sharing).
 
 
 e.g.)
