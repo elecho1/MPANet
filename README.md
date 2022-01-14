@@ -25,7 +25,9 @@ $ pip install -r requirements.txt
 ### Trained model
 * Trained model for this code is [here](https://drive.google.com/file/d/1NZ53mlekEgsbInWqdMAhyb6NuX4HaGPl/view?usp=sharing)
 
-
+### Dependencies
+* Our networks(`net.py`) uses NIMA network from https://github.com/truskovskiyk/nima.pytorch/tree/100462070eb053127cdd0fe4cc56d8b8233cd832 .  
+  Please place the `nima/` folder of the above repository in your root clone directory before you run the code. 
 
 ## Usage
 ### Evaluation
